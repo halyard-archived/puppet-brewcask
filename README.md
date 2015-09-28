@@ -1,7 +1,15 @@
-Homebrew Cask Puppet Module for Boxen
-=====================================
+puppet-brewcask
+===========
 
-A module which installs [homebrew-cask](https://github.com/caskroom/homebrew-cask), and `brewcask` provider for Puppet's `package` type.
+[![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://tldrlegal.com/license/mit-license)
+[![Build Status](https://img.shields.io/circleci/project/halyard/puppet-brewcask.svg)](https://circleci.com/gh/halyard/puppet-brewcask)
+
+Module to tap [homebrew-cask](https://github.com/caskroom/homebrew-cask), and add `brewcask` provider for Puppet's package type.
+
+## Changes from upstream
+
+* Removed a lot of meta-stuff I wasn't using, like the cardboard scripts
+* Set up CircleCI build tests
 
 ## Usage
 
@@ -13,15 +21,7 @@ package { 'adium': provider => 'brewcask' }
 package { 'firefox': provider => 'brewcask' }
 ```
 
-## Custom facts
-
- - `brewcask_root` (only overridable from `$BOXEN_REPO_DIR/facts.d/`)
-   - default is `/opt/homebrew-cask`
-
 ## Required Puppet Modules
 
- - `homebrew`, >= 1.10.0
+* [homebrew](https://github.com/halyard/puppet-homebrew)
 
-## Work in progress
-
-Please contribute by reporting issues and submitting pull requests!
