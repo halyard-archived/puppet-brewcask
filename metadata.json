@@ -1,0 +1,22 @@
+{
+  "name": "halyard-brewcask",
+  "version": "0.1.0",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure brewcask via Boxen",
+  "source": "https://github.com/halyard/puppet-brewcask",
+  "project_page": "https://github.com/halyard/puppet-brewcask",
+  "issues_url": "https://github.com/halyard/puppet-brewcask/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
