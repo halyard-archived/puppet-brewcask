@@ -2,6 +2,7 @@ puppet-brewcask
 ===========
 
 [![Puppet Forge](https://img.shields.io/puppetforge/v/halyard/brewcask.svg)](https://forge.puppetlabs.com/halyard/brewcask)
+[![Dependency Status](https://img.shields.io/gemnasium/halyard/puppet-brewcask.svg)](https://gemnasium.com/halyard/puppet-brewcask)
 [![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Build Status](https://img.shields.io/circleci/project/halyard/puppet-brewcask.svg)](https://circleci.com/gh/halyard/puppet-brewcask)
 
